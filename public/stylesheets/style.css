@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Nyala;
+  src: url(nyala.ttf);
+}
+
+body {
+  padding: 0;
+  font-family: Nyala;
+}
+
+a button{
+  color: #ffffff;
+}
+
+
+#HelpLine{
+  height: 45px;
+}
+
+#pushkaro{
+  height: 110px;
+}
+
+#pushkarocarosuel{
+  height: 600px;
+}
+
+#pushkarofooter{
+  margin-top: 20px;
+  height: 300px;
+}
+
+#logo{
+  padding: 6%;
+  background-image: url("../images/pushkaro.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+p{
+  font-family: Nyala;
+  font-size: large;
+  font-weight: 500;
+}
+
+/*carousel*/
+
+.carousel-inner > .item > a > img {
+
+}
+
+.item{
+
+}
+
+.loginbutton{
+  height: 50px;
+  width: 400px;
+}
+
+.signupbutton{
+  height: 50px;
+  width: 300px;
+}
+
+@media(max-width:468px) {
+.loginbutton{
+  height: 50px;
+  width: 180px;
+}
+  .signupbutton{
+    height: 50px;
+    width: 180px;
+  }
+}
+
+#demo{
+  top:-20px;
+  background-image: url("../images/demo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110px;
+}
+
+#getapush{
+  margin-top: 0;
+  background-image: url("../images/getapush.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.jumbotron{
+  margin-top: 20px;
+  height: 650px;
+}
+
+h3{
+  font-family: Nyala;
+  font-weight: 600;
+}
+
+#designButton{
+  transition: 300ms ease-in-out;
+}
+
+#designButton:hover{
+  box-shadow: 3px 3px 3px #888888;;
+}
+
+
+
+
+/*check box */
+
+
+
+
+
+.checkbox {
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.checkbox.show:before {
+  content: '\e013';
+  color: #1fa67b;
+  font-size: 17px;
+  margin: 1px 0 0 3px;
+  position: absolute;
+  pointer-events: none;
+  font-family: 'Glyphicons Halflings';
+}
+.checkbox .character-checkbox {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  display: inline-block;
+}
+.checkbox .label {
+  color: #6d6d6d;
+  font-size: 13px;
+  font-weight: normal;
+}
+.btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.forget {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
